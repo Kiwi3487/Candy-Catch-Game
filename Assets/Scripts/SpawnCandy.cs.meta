@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: f6840a7f1f90c554891198be87897178
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - Candy1Prefab: {fileID: -3844664213420241801, guid: c57112d9af288fe44862eed0a3767f05, type: 3}
+  - Candy2Prefab: {fileID: 569342205162195526, guid: ca0bb9047cfbae348818694f7fb5a7c6, type: 3}
+  - Candy3Prefab: {fileID: 6683850813431198048, guid: aec7ae631d1041c4fac1d8582f15ce00, type: 3}
+  - Candy4Prefab: {fileID: 6844440706249168956, guid: d8e87d3b740aba4469f577e9d13540b8, type: 3}
+  - Candy5Prefab: {fileID: 7670138258769063127, guid: eef39bc83314b1c46898ad27fe4e4975, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

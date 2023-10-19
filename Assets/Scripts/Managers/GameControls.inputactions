@@ -1,0 +1,112 @@
+{
+    "name": "GameControls",
+    "maps": [
+        {
+            "name": "Game",
+            "id": "a1111401-7fc9-46d1-9657-253c12192f70",
+            "actions": [
+                {
+                    "name": "Movement",
+                    "type": "PassThrough",
+                    "id": "32ae6c49-f9ae-4b1d-90ec-912f840f0d6f",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "2D Vector",
+                    "id": "d08edea6-f264-4488-9f2a-42e73f662610",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "left",
+                    "id": "93dc8520-8adf-44fb-a272-59f9c03f6e66",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "f3913ecb-0da2-4780-bf1a-3844dd39af43",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        },
+        {
+            "name": "UI",
+            "id": "c43ba130-3271-4188-961e-ca7e2ba49aba",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "d7abd676-dde5-4d1e-9a58-2154efa19493",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "c86e2599-1096-478d-809d-6331cef4979d",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Permanent",
+            "id": "4d9e0b28-bb7c-496c-a7aa-19077ddad147",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "ffc7e826-6949-44d0-a7bd-b34128c86079",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "a6fad7cf-8356-494f-b432-97cce29e861e",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
