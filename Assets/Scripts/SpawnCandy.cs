@@ -10,6 +10,7 @@ public class SpawnCandy : MonoBehaviour
     [SerializeField] private Rigidbody2D Candy3Prefab;
     [SerializeField] private Rigidbody2D Candy4Prefab;
     [SerializeField] private Rigidbody2D Candy5Prefab;
+    [SerializeField] private Rigidbody2D Candy6Prefab;
     private Rigidbody2D rb;
     private float nextExecutionTime;
     private float minInterval = 1f;
@@ -47,7 +48,7 @@ public class SpawnCandy : MonoBehaviour
     {
         if (totalCandy != 15)
         {
-            int randomNumber = Random.Range(1, 11);
+            int randomNumber = Random.Range(1, 13);
             //Debug.Log("RanNum chosen: " + randomNumber);
             if (randomNumber == 1 || randomNumber == 2 || randomNumber == 3 || randomNumber == 4)
             {
@@ -77,6 +78,12 @@ public class SpawnCandy : MonoBehaviour
             {
                 Vector3 randomPosition = origin + Random.insideUnitSphere * radius;
                 Instantiate(Candy5Prefab, randomPosition, Quaternion.identity);
+                totalCandy++;
+            }
+            if (randomNumber == 13)
+            {
+                Vector3 randomPosition = origin + Random.insideUnitSphere * radius;
+                Instantiate(Candy6Prefab, randomPosition, Quaternion.identity);
                 totalCandy++;
             }
         }
